@@ -1,0 +1,225 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+h1,legend {
+	color: #1A1F1E;
+}
+
+fieldset .info  {
+	color: #1A1F1E;
+}
+
+h2,label {
+	color: #260609;
+}
+
+fieldset {
+	border: none;
+	border-top: 4px solid #DEDC8C;
+	border-bottom: 1px solid  #DEDC8C;
+}
+
+h2 {
+	font-family: Georgia, serif;
+}
+
+p,ul {
+	margin: 16px auto;
+}
+
+h1.error {
+	color: #521018;
+}
+
+p.error {
+	width: 100%;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	padding: 20px;
+	color: red;
+}
+
+li {
+	margin-left: 32px;
+}
+
+form {
+	margin: auto;
+	overflow: hidden;
+	width: 650px;
+}
+
+form.compact {
+	width: auto;
+	padding: 10px;
+}
+
+form.compact {
+
+}
+
+fieldset {
+	margin: auto;
+	padding-top: 20px;
+	margin-bottom: 8px;
+	overflow: visible;
+}
+
+fieldset .info {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 40px;
+	font-family: Verdana;
+	font-size: 80%;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	padding-top: 5px;
+}
+
+.compact label {
+	display: block;
+	float: left;
+	clear: left;
+}
+
+.compact .exits label {
+	margin-right: 16px;
+	text-align: right;
+	width: 150px;
+}
+
+input[type=text],textarea {
+	font-family: monospace;
+	font-size: 16px;
+	padding: 5px;
+	display: block;
+	width: 260px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+}
+
+.compact select { 
+	display: block;
+	font-size: 16px;
+	padding: 5px;
+}
+
+textarea {
+	height: 120px;
+}
+
+button {
+	display: block;
+	background: #eee;
+	border: 1px solid #ccc;
+	font: 18px bold;
+	margin: 10px;
+	text-align: left;
+}
+
+button[type=submit] {
+	float: right;
+	margin-right: 0;
+}
+
+button.ok:hover {
+	background: #E5EDB8;
+}
+
+button span {
+	padding-left: 24px;
+	padding-right: 12px;
+}
+
+button.ok span {
+	background: url('img/ok.png') left no-repeat;
+}
+
+header,footer {
+	display: block;
+	width: 100%;
+	background: #F7F7E1;
+	font-weight: bold;
+	color: #40391A;
+	font-size: 80%;
+	min-height: 25px;
+}
+
+header p,footer p {
+	margin: 5px;
+}
+
+footer {
+	margin-top: 64px;
+	border-top: 1px solid #DEDC8C;
+} 
+
+header {
+	padding-top: 5px;
+	border-bottom: 1px solid #DEDC8C;
+}
+
+#install {
+	width: 600px;
+	margin: auto;
+}
+
+#mapPane {
+	float: left;
+	padding: 20px;
+}
+
+#map {
+}
+
+#map .edit-link {
+	display: none;
+}
+
+#map .active div {
+	background-color: yellow;
+}
+
+
+#content {
+	overflow: visible;
+	padding: 20px;
+}
+
+footer {
+	clear: both;
+}
+
+#editor {
+	margin-top: 65px;
+	width: 400px;
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	background: #fff;
+	border: 2px double #ccc;
+}
+
+#editor.loading {
+	background: url('img/loading.gif') no-repeat center;
+	height: 500px;
+}
+
+#editor.loading form {
+	display: none;
+}
