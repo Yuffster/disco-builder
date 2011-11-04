@@ -13,9 +13,9 @@
 <header>
 	<navigation>
 		<ul>
-			<li><a href="?action=map&zone=1">Map</a></li>
-			<li><a href="?action=npcs&zone=1">NPCs</a></li>
-			<li><a href="?action=items&zone=1">Items</a></li>
+			<li class='selected'><a href="index.php?action=map">Rooms</a></li>
+			<li><a href="index.php?action=npcs">NPCs</a></li>
+			<li><a href="index.php?action=items">Items</a></li>
 		</ul>
 	</navigation>
 </header>

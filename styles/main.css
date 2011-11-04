@@ -223,3 +223,29 @@ footer {
 #editor.loading form {
 	display: none;
 }
+
+navigation ul {
+	padding:0;
+	margin:0;
+	height: 25px;
+	height: 25px;
+}
+
+navigation ul li {
+	margin-left:15px;
+	display:inline-block;
+	height:100%;
+}
+
+navigation ul li a {
+	padding: 0 10px;
+	height:100%;
+	display:block;
+}
+navigation ul li.selected a {
+	background:#fff;
+	position:relative;
+	bottom:-1px;
+	border: 1px solid #DEDC8C;
+	border-bottom: 0;
+}
