@@ -77,6 +77,14 @@ class Zone extends DataModel {
 		if (!$data) return false;
 		return self::fill($data);
 	}
+	
+	public function findAll($arr) {
+		$data = Database::select('area', $arr);
+		if (!$data) return false;
+		$objs = Array();
+		foreach ($data as $r) $objs[] = self::fill($r);
+		return $objs;
+	}
 
 }
 

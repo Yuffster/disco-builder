@@ -1,3 +1,16 @@
+<? if(isset($index)): ?>
+
+	<h2>Zones</h2>
+	<ul>
+	<?foreach ($index as $item):?>
+		
+		<li><a href="index.php?action=map&zone=<?=$item->id?>"><?=$item->name?></a></li>
+		
+	<?endforeach;?>
+	</ul>
+	
+<? die(); endif; ?>
+
 <? $level = (isset($_GET['level'])) ? $_GET['level'] : 0; ?>
 <h2><?=$zone->name?> (<?= ($level==0) ? "Ground Level" : "Level $level";?>)</h2>
 <div id="mapPane">

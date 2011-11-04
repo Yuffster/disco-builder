@@ -21,8 +21,8 @@ function yield($action=null) {
 	$zone_id = (isset($_GET['zone'])) ? $_GET['zone'] : '';
 
 	if ($zone_id) $zone = Zone::find($zone_id);
-	else $zone = false;
-
+	else $index = Zone::findAll();
+	
 	if (!$action) {
 		$action = (isset($_GET['action'])) ? $_GET['action'] : 'index';
 	}

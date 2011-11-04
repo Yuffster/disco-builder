@@ -242,6 +242,7 @@ navigation ul li a {
 	height:100%;
 	display:block;
 }
+
 navigation ul li.selected a {
 	background:#fff;
 	position:relative;

@@ -100,7 +100,7 @@
 			</fieldset>
 
 			<button type="submit" class="ok">
-				<span>Begin Installation</span>
+				<span>Finish Installation</span>
 			</button>
 
 		</form>
